@@ -1,0 +1,40 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+#main{
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+i{
+  color:black;
+  font-size: 8vw;
+}
+
+#box, #play{
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+button{
+  padding:4px 7px;
+  background-color: hotpink;
+  color:black;
+  font-family: poppins;
+  border:1px solid black;
+}
+
+p{
+  font-family: poppins;
+  font-size: 40pt;
+  color:darkblue;
+  margin-bottom: 30px;
+}
